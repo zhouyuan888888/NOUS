@@ -17,7 +17,7 @@ class EvalT2MOptions(BaseOptions):
                                  help="Filter out percentil low prop entries.")
         self.parser.add_argument("--time_steps", default=18, type=int,
                                  help="Mask Generate steps.")
-        self.parser.add_argument("--seed", default=10107, type=int)
+        self.parser.add_argument("--seed", default=26, type=int)
         self.parser.add_argument('--save_embeddings', type=str, default='',
                                  help='Save the evaluator embeddings of all repetitions to this .npz '
                                       '(recompute the metrics later with eval.py --embeddings <file>)')

@@ -17,7 +17,7 @@ The checkpoints (1.1 GB) and the ViMo data (9.8 GB) are in our
 Run the following in the repository root:
 
 ```bash
-pip install gdown
+pip install -U gdown
 gdown --folder https://drive.google.com/drive/folders/1pXtjD6gnP9pdDjsNe_gOFatj20FPg1x_ -O downloads
 (cd downloads && sha256sum -c SHA256SUMS)   # optional integrity check
 unzip downloads/checkpoints.zip              # -> checkpoints/
@@ -60,7 +60,7 @@ NOUS/
 
 ```bash
 python eval.py \
-    --seed 10107 \
+    --seed 26 \
     --dataset_name vimo \
     --name stage1 \
     --res_name stage2 \
