@@ -1,0 +1,16 @@
+# Checkpoints and data are distributed via Google Drive (see README)
+checkpoints/
+datasets/
+downloads/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / OS
+.history/
+.vscode/
+.DS_Store
+
+# Run outputs
+log/
